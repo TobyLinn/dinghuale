@@ -1,0 +1,12 @@
+//  设计图大小变量
+$designWidth: 375;
+
+@function vw($px) {
+  @return ($px / $designWidth) * 100vw;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+

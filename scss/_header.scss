@@ -1,0 +1,24 @@
+header {
+  width: 100%;
+  div {
+    width: 90%;
+    height: vw(50);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .search {
+      width: vw(21);
+      img {
+        width: vw(21);
+        height: vw(21);
+      }
+    }
+    .logo {
+      width: vw(325);
+      img {
+        width: vw(75);
+      }
+    }
+  }
+}

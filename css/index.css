@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+}
+header div {
+  width: 90%;
+  height: 13.3333333333vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header div .search {
+  width: 5.6vw;
+}
+header div .search img {
+  width: 5.6vw;
+  height: 5.6vw;
+}
+header div .logo {
+  width: 86.6666666667vw;
+}
+header div .logo img {
+  width: 20vw;
+}
+
+.lunbotu {
+  width: 100vw;
+  height: 54.6666666667vw;
+  background: url("../images/index/202012291159312424.jpg.png") no-repeat center/cover;
+}
+
+.Introduction {
+  width: 100vw;
+  height: 8.8vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Introduction div {
+  width: 20.2666666667vw;
+  height: 4.5333333333vw;
+  font-size: 3.2vw;
+  line-height: 4.5333333333vw;
+  display: flex;
+}
+
+.species {
+  width: 100vw;
+  height: 22.6666666667vw;
+  display: flex;
+  justify-content: space-around;
+}
+.species div {
+  width: 10.6666666667vw;
+  height: 22.6666666667vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.species div img {
+  width: 10.6666666667vw;
+}
+
+.fg {
+  width: 100vw;
+  height: 2.1333333333vw;
+  background-color: #f7f7f7;
+}
+
+.ymxh {
+  width: 100vw;
+  height: 76.392vw;
+  position: relative;
+}
+.ymxh .ymxh-p {
+  margin: 2.6666666667vw auto;
+  width: 89.3333333333vw;
+  height: 4vw;
+  color: #884e22;
+  font-size: 4vw;
+  text-align: left;
+  line-height: 4vw;
+  text-indent: 1em;
+}
+.ymxh .ymxh-p::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #884e22;
+  height: 4vw;
+  width: 0;
+  left: 3.0666666667vw;
+  top: -0.5333333333vw;
+}
+.ymxh .ymxh-top div {
+  margin: 2.6666666667vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ymxh .ymxh-top div img {
+  width: 29.6vw;
+}
+.ymxh .ymxh-bottom {
+  margin: 0 2.6666666667vw;
+  display: flex;
+  justify-content: space-around;
+}
+.ymxh .ymxh-bottom div {
+  height: 28.2666666667vw;
+  width: 22.6666666667vw;
+  background: #f3ebe3;
+  border-radius: 1.3333333333vw;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.ymxh .ymxh-bottom div p {
+  margin-top: 0.8vw;
+  width: 22.6666666667vw;
+  color: rgb(136, 78, 34);
+  font-weight: 600;
+  padding-top: 0.2rem;
+  padding-bottom: 0.1rem;
+}
+.ymxh .ymxh-bottom div img {
+  width: 18.1333333333vw;
+}
+
+.aqxh {
+  position: relative;
+}
+.aqxh .aqxh-p {
+  margin: 7.5546666667vw auto 13.3333333333vw;
+  width: 16vw;
+  height: 5.6vw;
+  font-size: 4vw;
+  color: #555555;
+  font-weight: 600;
+  font-family: "PingFang SC";
+}
+.aqxh::before {
+  content: "";
+  height: 0;
+  width: 21.3333333333vw;
+  border: 2px solid #884e22;
+  position: absolute;
+  top: 8vw;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 0.5333333333vw;
+}
+.aqxh .aqxh-sp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.aqxh .aqxh-sp div {
+  margin-top: 2.6666666667vw;
+  width: 44vw;
+}
+.aqxh .aqxh-sp div img {
+  width: 44vw;
+}
+.aqxh .aqxh-sp div p {
+  width: 14.9333333333vw;
+  height: 5.3333333333vw;
+  color: #666666;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: left;
+}
+.aqxh .aqxh-sp div div {
+  margin-top: 2.6666666667vw;
+  display: flex;
+  justify-content: space-between;
+}
+.aqxh .aqxh-sp div div span:first-of-type {
+  width: 10.6666666667vw;
+  height: 5.3333333333vw;
+  color: #ff4433;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "PingFang SC";
+  text-align: left;
+}
+.aqxh .aqxh-sp div div span:last-of-type {
+  width: 20vw;
+  height: 4.5333333333vw;
+  font-size: 3.2vw;
+  font-weight: 400;
+  color: #999999;
+  font-family: "PingFang SC";
+  text-align: left;
+}
+.aqxh .btn {
+  margin-top: 5.3333333333vw;
+  width: 100%;
+  height: 7.2vw;
+  position: relative;
+}
+.aqxh .btn input {
+  background: #ffffff;
+  width: 18.6666666667vw;
+  height: 7.2vw;
+  color: #999999;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/*# sourceMappingURL=index.css.map */
