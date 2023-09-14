@@ -13,12 +13,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .icon-sousuo {
-      font-size: vw(20);
+    .icon-xialazuo {
+      font-size: vw(22);
     }
 
     img {
       width: vw(75);
+    }
+    .icon-caidan {
+      font-size: vw(22);
     }
   }
 }
@@ -208,7 +211,6 @@ header {
     p {
       margin: auto;
       width: vw(337);
-      width: 336.2px;
       color: #555555;
       font-size: vw(14);
       font-weight: 400;
@@ -252,7 +254,7 @@ header {
     width: vw(340);
     opacity: 1;
     color: #555555;
-    font-size: 16.5px;
+    font-size: vw(17);
     font-weight: 400;
     font-family: "PingFang SC";
   }

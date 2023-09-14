@@ -18,11 +18,14 @@ header div {
   justify-content: space-between;
   align-items: center;
 }
-header div .icon-sousuo {
-  font-size: 5.3333333333vw;
+header div .icon-xialazuo {
+  font-size: 5.8666666667vw;
 }
 header div img {
   width: 20vw;
+}
+header div .icon-caidan {
+  font-size: 5.8666666667vw;
 }
 
 .photo {
@@ -200,7 +203,6 @@ header div img {
 .review-content .review-content-concent p {
   margin: auto;
   width: 89.8666666667vw;
-  width: 336.2px;
   color: #555555;
   font-size: 3.7333333333vw;
   font-weight: 400;
@@ -246,7 +248,7 @@ header div img {
   width: 90.6666666667vw;
   opacity: 1;
   color: #555555;
-  font-size: 16.5px;
+  font-size: 4.5333333333vw;
   font-weight: 400;
   font-family: "PingFang SC";
 }
