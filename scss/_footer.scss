@@ -15,10 +15,13 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    img {
+
+    .iconfont {
       margin: auto;
-      height: vw(33);
-      text-align: center;
+      font-size: vw(27);
+    }
+    .icon-shouye {
+      color: #884e22;
     }
 
     p {

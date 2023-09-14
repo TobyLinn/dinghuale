@@ -1,4 +1,32 @@
-@import "com", "header", "footer";
+@import "com", "footer";
+
+header {
+  width: vw(375);
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  z-index: 10;
+  div {
+    width: 90%;
+    height: vw(50);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .search {
+      width: vw(21);
+      .icon-sousuo {
+        font-size: vw(21);
+      }
+    }
+    .logo {
+      width: vw(325);
+      img {
+        width: vw(75);
+      }
+    }
+  }
+}
 
 .lunbotu {
   width: 100vw;
@@ -13,6 +41,9 @@
   justify-content: space-around;
   align-items: center;
   div {
+    .icon-dui {
+      font-size: vw(14);
+    }
     width: vw(76);
     height: vw(17);
     font-size: vw(12);

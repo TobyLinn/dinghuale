@@ -2,14 +2,19 @@
 $designWidth: 375;
 
 @function vw($px) {
-  @return ($px / $designWidth) * 100vw;
+  @return calc($px / $designWidth) * 100vw;
 }
 
+// @font-face {
+//   font-family: "iconfont"; /* Project id 4251973 */
+//   src: url("//at.alicdn.com/t/c/font_4251973_qjxqy6l0mro.woff2?t=1694676186683")
+//       format("woff2"),
+//     url("//at.alicdn.com/t/c/font_4251973_qjxqy6l0mro.woff?t=1694676186683")
+//       format("woff"),
+//     url("//at.alicdn.com/t/c/font_4251973_qjxqy6l0mro.ttf?t=1694676186683")
+//       format("truetype");
+// }
 * {
   padding: 0;
   margin: 0;
 }
-// body {
-//   overflow-x: hidden;
-//   box-sizing: border-box;
-// }

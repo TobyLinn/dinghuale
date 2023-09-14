@@ -3,35 +3,6 @@
   margin: 0;
 }
 
-header {
-  width: 100vw;
-  position: sticky;
-  top: 0px;
-  background-color: #fff;
-  z-index: 10;
-}
-header div {
-  width: 90%;
-  height: 13.3333333333vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-header div .search {
-  width: 5.6vw;
-}
-header div .search img {
-  width: 5.6vw;
-  height: 5.6vw;
-}
-header div .logo {
-  width: 86.6666666667vw;
-}
-header div .logo img {
-  width: 20vw;
-}
-
 footer {
   width: 100vw;
   height: 13.8666666667vw;
@@ -51,10 +22,12 @@ footer div {
   justify-content: space-between;
   align-items: start;
 }
-footer div img {
+footer div .iconfont {
   margin: auto;
-  height: 8.8vw;
-  text-align: center;
+  font-size: 7.2vw;
+}
+footer div .icon-shouye {
+  color: #884e22;
 }
 footer div p {
   width: 11.2vw;
@@ -71,6 +44,34 @@ footer div p:hover {
 }
 footer div .liang {
   color: #884e22;
+}
+
+header {
+  width: 100vw;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  z-index: 10;
+}
+header div {
+  width: 90%;
+  height: 13.3333333333vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header div .search {
+  width: 5.6vw;
+}
+header div .search .icon-sousuo {
+  font-size: 5.6vw;
+}
+header div .logo {
+  width: 86.6666666667vw;
+}
+header div .logo img {
+  width: 20vw;
 }
 
 .lunbotu {
@@ -92,6 +93,9 @@ footer div .liang {
   font-size: 3.2vw;
   line-height: 4.5333333333vw;
   display: flex;
+}
+.Introduction div .icon-dui {
+  font-size: 3.7333333333vw;
 }
 
 .species {

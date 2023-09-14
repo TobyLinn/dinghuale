@@ -13,9 +13,8 @@ header {
     align-items: center;
     .search {
       width: vw(21);
-      img {
-        width: vw(21);
-        height: vw(21);
+      .icon-sousuo {
+        font-size: vw(21);
       }
     }
     .logo {
