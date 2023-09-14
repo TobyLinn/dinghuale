@@ -1,5 +1,9 @@
 header {
-  width: 100%;
+  width: vw(375);
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  z-index: 10;
   div {
     width: 90%;
     height: vw(50);

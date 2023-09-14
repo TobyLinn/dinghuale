@@ -4,7 +4,11 @@
 }
 
 header {
-  width: 100%;
+  width: 100vw;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  z-index: 10;
 }
 header div {
   width: 90%;
@@ -30,28 +34,30 @@ header div .logo img {
 
 footer {
   width: 100vw;
-  height: 16vw;
+  height: 13.8666666667vw;
   background-color: #fff;
-  background: #f5f5f5;
+  background: #fcfcfc;
   display: flex;
   justify-content: space-around;
   align-items: space;
+  position: sticky;
+  bottom: 0px;
 }
 footer div {
-  width: 9.6vw;
-  height: 14.6666666667vw;
-  margin: 1.3333333333vw 0;
+  width: 10.6666666667vw;
+  height: 13.3333333333vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: start;
 }
 footer div img {
-  width: 8.8vw;
+  margin: auto;
+  height: 8.8vw;
   text-align: center;
 }
 footer div p {
-  width: 9.8666666667vw;
+  width: 11.2vw;
   height: 3.2vw;
   color: #000;
   font-size: 3.2vw;
@@ -115,7 +121,8 @@ footer div .liang {
 
 .ymxh {
   width: 100vw;
-  height: 76.392vw;
+  height: auto;
+  margin: 0 0 2.6666666667vw;
   position: relative;
 }
 .ymxh .ymxh-p {
@@ -131,7 +138,7 @@ footer div .liang {
 .ymxh .ymxh-p::before {
   content: "";
   position: absolute;
-  border: 1px solid #884e22;
+  border: 0.2666666667vw solid #884e22;
   height: 4vw;
   width: 0;
   left: 3.0666666667vw;
@@ -143,8 +150,19 @@ footer div .liang {
   justify-content: space-between;
   align-items: center;
 }
-.ymxh .ymxh-top div img {
+.ymxh .ymxh-top div .img {
   width: 29.6vw;
+  height: 24.5333333333vw;
+  margin: 0;
+}
+.ymxh .ymxh-top div .img:first-of-type {
+  background: url("../images/index/imgNav1.png.png") no-repeat center/cover;
+}
+.ymxh .ymxh-top div .img:nth-of-type(2) {
+  background: url("../images/index/imgNav2.png.png") no-repeat center/cover;
+}
+.ymxh .ymxh-top div .img:nth-of-type(3) {
+  background: url("../images/index/imgNav3.png.png") no-repeat center/cover;
 }
 .ymxh .ymxh-bottom {
   margin: 0 2.6666666667vw;
@@ -191,7 +209,7 @@ footer div .liang {
   content: "";
   height: 0;
   width: 21.3333333333vw;
-  border: 2px solid #884e22;
+  border: 0.5333333333vw solid #884e22;
   position: absolute;
   top: 8vw;
   left: 50%;
