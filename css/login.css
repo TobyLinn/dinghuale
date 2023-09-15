@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  height: 13.3333333333vw;
+}
+header p {
+  margin: auto;
+  width: 17.0666666667vw;
+  height: 13.3333333333vw;
+  line-height: 13.3333333333vw;
+  text-align: center;
+  color: #555555;
+  font-size: 4.2666666667vw;
+  font-weight: 500;
+  font-family: "PingFang SC";
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  margin-top: 8vw;
+  width: 36.8vw;
+}
+
+.login {
+  margin: auto;
+  width: 92vw;
+  height: 19.4666666667vw;
+  border-bottom: 0.5333333333vw solid #e9ecf0;
+}
+.login .phone {
+  margin-top: 4.5333333333vw;
+}
+.login .phone p {
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+}
+.login .phone input {
+  width: 58.6666666667vw;
+  margin-top: 4vw;
+  border: 0;
+  color: #757575;
+  font-size: 4vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+}
+
+.captcha {
+  margin: auto;
+  width: 92vw;
+  height: 19.4666666667vw;
+  border-bottom: 0.5333333333vw solid #e9ecf0;
+}
+.captcha .yzm {
+  margin-top: 4.5333333333vw;
+}
+.captcha .yzm p {
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+}
+.captcha .yzm input {
+  width: 58.6666666667vw;
+  margin-top: 4vw;
+  border: 0;
+  color: #757575;
+  font-size: 4vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+}
+.captcha .yzm button {
+  background-color: #fff;
+  border: 0;
+  color: #555555;
+  font-size: 4vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+}
+
+.password {
+  margin: auto;
+  width: 92vw;
+  height: 19.4666666667vw;
+  border-bottom: 0.5333333333vw solid #e9ecf0;
+}
+.password .pwd {
+  margin-top: 4.5333333333vw;
+}
+.password .pwd p {
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+}
+.password .pwd input {
+  margin-top: 4vw;
+  border: 0;
+  color: #757575;
+  font-size: 4vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+}
+
+.btn-login {
+  margin: 8vw 0;
+  width: 100vw;
+  text-align: center;
+}
+.btn-login button {
+  bottom: 0;
+  width: 92vw;
+  height: 12vw;
+  background: #884e22;
+  color: #ffffff;
+  font-size: 4.8vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: center;
+}
+
+.mmdl {
+  width: 100vw;
+  margin-bottom: 5.3333333333vw;
+}
+.mmdl p {
+  margin: auto;
+  width: 21.3333333333vw;
+  height: ve(25);
+  color: #555555;
+  font-size: 4.8vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: center;
+}
+
+.login-bottom {
+  width: 100vw;
+  position: relative;
+}
+.login-bottom p {
+  margin: auto;
+  width: 18.9333333333vw;
+  height: 4.5333333333vw;
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: center;
+}
+.login-bottom p::before {
+  content: "";
+  position: absolute;
+  border: 0.2666666667vw solid #ccc;
+  height: 0;
+  width: 21.3333333333vw;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.login-bottom p::after {
+  content: "";
+  position: absolute;
+  border: 0.2666666667vw solid #ccc;
+  height: 0;
+  width: 21.3333333333vw;
+  top: 60%;
+  right: -1%;
+  transform: translate(-50%, -50%);
+}
+
+.icon {
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 8vw;
+  width: 93.3333333333vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon .qq {
+  width: 13.3333333333vw;
+  height: 5.0666666667vw;
+}
+.icon .qq .icon-qq3-copy {
+  font-size: 5.0666666667vw;
+}
+.icon .qq span {
+  vertical-align: middle;
+  width: 7.4666666667vw;
+  height: 3.7333333333vw;
+  line-height: 3.7333333333vw;
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: center;
+}
+.icon .wx {
+  width: 13.3333333333vw;
+  height: 5.0666666667vw;
+}
+.icon .wx .icon-icon-weixin1 {
+  font-size: 5.0666666667vw;
+}
+.icon .wx span {
+  vertical-align: middle;
+  width: 7.4666666667vw;
+  height: 3.7333333333vw;
+  line-height: 3.7333333333vw;
+  color: #555555;
+  font-size: 3.7333333333vw;
+  font-weight: 400;
+  font-family: "PingFang SC";
+  text-align: center;
+}
+
+/*# sourceMappingURL=login.css.map */
